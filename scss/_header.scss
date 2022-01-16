@@ -1,5 +1,6 @@
 header {
   border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+  padding: 20px 0;
   .container {
     width: 100%;
     max-width: 1246px;
@@ -10,7 +11,7 @@ header {
     justify-content: space-between;
     .logo {
       img {
-        width: 150px;
+        width: 120px;
       }
     }
     nav {
