@@ -6,6 +6,10 @@
   "author": "Anderson Santana",
   "license": "MIT",
   "dependencies": {
-    "gulp": "^4.0.2"
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.48.0"
   }
 }
