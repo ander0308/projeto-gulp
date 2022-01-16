@@ -1,0 +1,11 @@
+{
+  "name": "codeboost-gulp",
+  "version": "1.0.0",
+  "description": "Um projeto criado para o curso coodboost",
+  "main": "index.js",
+  "author": "Anderson Santana",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
