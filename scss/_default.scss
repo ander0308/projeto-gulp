@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-size: 62.2%;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.08rem;
+}
+
+ul {
+  list-style: none;
+  display: block;
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #555;
+}
+
+button {
+  border: none;
+  background-color: #1778f2;
+  color: #555;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.08rem;
+  padding: 12px 24px;
+  color: white;
+  /* Shadow card */
+  box-shadow: 0px 8px 16px rgba(143, 149, 178, 0.15);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.3s all;
+  &:hover {
+    background-color: #005fd4;
+  }
+}
