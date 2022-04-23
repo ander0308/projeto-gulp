@@ -1,6 +1,6 @@
 header {
-  border-bottom: 1px solid rgba(204, 204, 204, 0.2);
-  padding: 20px 0;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.1);
+  padding: 24px 0;
   .container {
     width: 100%;
     max-width: 1246px;
@@ -15,6 +15,10 @@ header {
       }
     }
     nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 58px;
       ul {
         display: flex;
         li {
@@ -25,7 +29,7 @@ header {
           a {
             transition: 0.3s all;
             &:hover {
-              color: #005fd4;
+              color: #ccc;
             }
           }
         }

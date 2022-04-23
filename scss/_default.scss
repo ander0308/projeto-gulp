@@ -5,10 +5,10 @@
 }
 
 body {
-  background-color: white;
+  background-color: #0D1118;
   font-size: 62.2%;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   letter-spacing: 0.08rem;
 }
 
@@ -20,26 +20,24 @@ ul {
 a {
   font-size: 1rem;
   text-decoration: none;
-  color: #555;
+  color: #fff;
 }
 
 button {
-  border: none;
-  background-color: #1778f2;
-  color: #555;
+  border: solid 1px #fff;
+  background-color: #fff;
   font-size: 14px;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   line-height: 20px;
-  letter-spacing: 0.08rem;
   padding: 12px 24px;
-  color: white;
-  /* Shadow card */
-  box-shadow: 0px 8px 16px rgba(143, 149, 178, 0.15);
+  color: #3F3D56;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s all;
   &:hover {
-    background-color: #005fd4;
+    background-color: transparent;
+    border: solid 1px #fff;
+    color: #fff;
   }
 }
