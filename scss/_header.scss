@@ -1,17 +1,17 @@
 header {
-  border-bottom: 1px solid rgba(204, 204, 204, 0.1);
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.1);
   padding: 24px 0;
+  position: sticky;
+  top: 0;
+  background-color: rgba(13, 17, 24, 0.95);
+
   .container {
-    width: 100%;
-    max-width: 1246px;
-    margin: 0 auto;
-    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     .logo {
       img {
-        width: 120px;
+        width: 140px;
       }
     }
     nav {
@@ -28,8 +28,11 @@ header {
           }
           a {
             transition: 0.3s all;
+            font-size: 1.6rem;
+            color: #ccc;
+
             &:hover {
-              color: #ccc;
+              color: #fff;
             }
           }
         }

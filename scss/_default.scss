@@ -3,13 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 
 body {
-  background-color: #0D1118;
-  font-size: 62.2%;
+  background-color: #0d1118;
   box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
-  letter-spacing: 0.08rem;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 0.02rem;
+}
+
+html {
+  font-size: 62.2%;
 }
 
 ul {
@@ -31,7 +38,7 @@ button {
   font-weight: bold;
   line-height: 20px;
   padding: 12px 24px;
-  color: #3F3D56;
+  color: #3f3d56;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s all;
