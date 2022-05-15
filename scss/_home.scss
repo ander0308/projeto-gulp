@@ -133,3 +133,71 @@
     }
   }
 }
+
+.s-benefits {
+  background-color: #f8f8fa;
+  padding-top: 12.5rem;
+  padding-bottom: 13.2rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      max-width: 30.9rem;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 4.8rem;
+      line-height: 5.6rem;
+      letter-spacing: -0.04em;
+      color: #0d1118;
+      span {
+        color: #4c6ef5;
+      }
+    }
+    .illustra-google {
+      position: relative;
+      width: 100%;
+      max-width: 45.855rem;
+      &:before {
+        content: "";
+        position: absolute;
+        background-image: url("../img/arrow-google.svg");
+        width: 8.152rem;
+        height: 32.844rem;
+        top: 8.5rem;
+        left: -7.2rem;
+      }
+    }
+    ul.benefits {
+      width: 100%;
+      max-width: 36.8rem;
+      li {
+        display: flex;
+        flex-direction: column;
+        &:not(:last-child) {
+          margin-bottom: 3.2rem;
+        }
+        h4 {
+          font-family: "Inter", sans-serif;
+          font-weight: 700;
+          font-size: 2.4rem;
+          line-height: 4rem;
+          letter-spacing: -0.02em;
+          color: #0f172a;
+          margin-bottom: 0.8rem;
+          span {
+            color: #9796a4;
+            margin-right: 1.6rem;
+          }
+        }
+        p {
+          max-width: 32rem;
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+          color: #717483;
+          margin-left: 5.6rem;
+        }
+      }
+    }
+  }
+}
