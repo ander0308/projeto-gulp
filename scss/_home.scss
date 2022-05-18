@@ -201,3 +201,87 @@
     }
   }
 }
+
+.s-services {
+  padding-top: 120px;
+  padding-bottom: 149px;
+  background-color: #0d1118;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: 37.2rem;
+      h3 {
+        max-width: 33.8rem;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+        letter-spacing: -0.04em;
+        color: #ffffff;
+        & > span {
+          color: #4c6ef5;
+          font-size: 30;
+        }
+      }
+      span {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .cards {
+      display: flex;
+      gap: 5.6rem;
+      .card {
+        width: 24rem;
+        height: 37.2rem;
+        background: grey;
+        border-radius: 0.5rem;
+        transition: transform 0.3s;
+        overflow: hidden;
+        position: relative;
+        h4 {
+          font-family: "Inter", sans-serif;
+          font-weight: 700;
+          font-size: 2.4rem;
+          line-height: 2.8rem;
+          color: rgba(255, 255, 255, 0.8);
+          position: absolute;
+          left: 3.6rem;
+          bottom: 8rem;
+        }
+        a {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          bottom: 2.8rem;
+          left: 3.6rem;
+          span {
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 2.8rem;
+            text-decoration-line: underline;
+            text-underline-offset: 0.2rem;
+            color: #ffffff;
+            margin-right: 5.6rem;
+          }
+        }
+      }
+      .card-1 {
+        background: url("../img/img-card-1.png") center center no-repeat;
+      }
+      .card-2 {
+        background: url("../img/img-card-2.png") center center no-repeat;
+      }
+      .card-3 {
+        background: url("../img/img-card-3.png") center center no-repeat;
+      }
+    }
+  }
+}

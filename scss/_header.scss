@@ -4,6 +4,7 @@ header {
   position: sticky;
   top: 0;
   background-color: rgba(13, 17, 24, 0.95);
+  z-index: 99;
 
   .container {
     display: flex;
