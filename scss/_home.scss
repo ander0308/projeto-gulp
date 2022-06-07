@@ -359,6 +359,7 @@
     }
   }
 }
+
 .s-portfolio {
   background-color: #ffffff;
   padding: 12rem 0;
@@ -386,11 +387,11 @@
       .swiper-pagination {
         position: relative;
         display: flex;
-        gap: 4px;
+        gap: 0.4rem;
         .swiper-pagination-bullet {
           background-color: #4c6ef5;
-          width: 12px;
-          height: 12px;
+          width: 1.2rem;
+          height: 1.2rem;
         }
       }
     }
@@ -401,7 +402,7 @@
           .text-portfolio {
             width: 100%;
             max-width: 52.9rem;
-            margin-top: 48px;
+            margin-top: 4.8rem;
             h4 {
               font-family: "Inter", sans-serif;
               font-weight: 700;
@@ -409,7 +410,7 @@
               line-height: 4rem;
               letter-spacing: -0.02em;
               color: #0f172a;
-              margin-bottom: 16px;
+              margin-bottom: 1.6rem;
             }
             p {
               font-family: "Noto Sans", sans-serif;
@@ -430,6 +431,100 @@
                 font-weight: 400;
                 line-height: 2.8rem;
                 color: #0f172a;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 9.6rem 0 6rem 0;
+  .container {
+    .footer-links {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+      nav {
+        width: 100%;
+        max-width: 57.8rem;
+        ul {
+          grid-template-rows: repeat(3, auto);
+          grid-auto-flow: column;
+          display: grid;
+          gap: 1.3rem;
+          li {
+            a {
+              font-family: "Noto Sans", sans-serif;
+              font-size: 1.5rem;
+              line-height: 3.2rem;
+              color: rgba(255, 255, 255, 0.8);
+              transition: color 0.3s;
+              &:hover {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+      .address {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-bottom: 4rem;
+        span {
+          font-family: "Noto Sans", sans-serif;
+          font-weight: 700;
+          font-size: 1.5rem;
+          line-height: 2.4rem;
+          color: #fff;
+          display: block;
+          margin-bottom: 1.6rem;
+        }
+        p {
+          font-family: "Noto Sans", sans-serif;
+          font-size: 1.5rem;
+          line-height: 2.4rem;
+          color: rgba(255, 255, 255, 0.8);
+          display: block;
+        }
+        button {
+          margin-top: 2.4rem;
+        }
+      }
+    }
+    .footer-copy {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 5rem;
+      span {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        letter-spacing: 0.02em;
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .dev-by {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+      }
+      .social-network {
+        ul {
+          display: flex;
+          gap: 3.2rem;
+          li {
+            a {
+              img {
+                width: 2.4rem;
+                height: 2.4rem;
+                transition: transform 0.3s;
+                &:hover {
+                  transform: scale(1.5);
+                }
               }
             }
           }
