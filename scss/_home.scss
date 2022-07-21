@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
     .info-hero {
       width: 100%;
       max-width: 531px;
@@ -55,6 +58,20 @@
           margin-left: 1rem;
         }
       }
+      @media screen and (max-width: 768px) {
+        margin-bottom: 5.6rem;
+        h1 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+        .cta-hero {
+          display: flex;
+          justify-content: center;
+          align-self: center;
+        }
+      }
     }
     .image-hero {
       height: 64rem;
@@ -97,6 +114,15 @@
         height: 24px;
         display: block;
       }
+      @media screen and (max-width: 768px) {
+        justify-content: center;
+        .line {
+          display: none;
+        }
+        .icon {
+          display: none;
+        }
+      }
     }
     .about-main {
       display: flex;
@@ -123,11 +149,25 @@
         max-width: 50.4rem;
         p {
           font-size: 1.8rem;
-          line-height: 28px;
+          line-height: 2.8rem;
           color: #cbd5e1;
           &:not(:last-child) {
             margin-bottom: 1.6rem;
           }
+        }
+      }
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        .text-left {
+          text-align: center;
+          margin-bottom: 4rem;
+          .icon {
+            display: none;
+          }
+        }
+        .text-right {
+          text-align: center;
         }
       }
     }
@@ -197,6 +237,17 @@
           color: #717483;
           margin-left: 5.6rem;
         }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 7rem 0;
+    .container {
+      flex-direction: column;
+      align-items: center;
+      .illustra-google {
+        max-width: 70%;
+        margin: 4rem 0;
       }
     }
   }

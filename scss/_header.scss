@@ -5,6 +5,9 @@ header {
   top: 0;
   background-color: rgba(13, 17, 24, 0.95);
   z-index: 99;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 12rem;
+  }
   .container {
     display: flex;
     align-items: center;
@@ -21,6 +24,9 @@ header {
       gap: 58px;
       ul {
         display: flex;
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
         li {
           margin-left: 32px;
           &:first-child {
